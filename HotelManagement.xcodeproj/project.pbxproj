@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4523981B288FA39903B855BF /* Pods_HotelManagementTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E1083ADA4ACF004C45915B8 /* Pods_HotelManagementTests.framework */; };
+		87C31084FA1AE0659D19E915 /* Pods_HotelManagementUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BFA6654930245D681209C20 /* Pods_HotelManagementUITests.framework */; };
+		D936E3239B7622F195E0712F /* Pods_HotelManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A40042871AFE534BD21850D0 /* Pods_HotelManagement.framework */; };
+		DC15C7501F94D45A0075E206 /* ReservationsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC15C74F1F94D45A0075E206 /* ReservationsAPI.swift */; };
+		DC22513D1F924BC00073A40B /* CalendarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC22513C1F924BC00073A40B /* CalendarVC.swift */; };
+		DC4A30011F926FC000DFF6B1 /* CalendarFSVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4A30001F926FC000DFF6B1 /* CalendarFSVC.swift */; };
+		DC4A30031F92705B00DFF6B1 /* CalendarFSCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4A30021F92705B00DFF6B1 /* CalendarFSCell.swift */; };
+		DC4A30051F92801100DFF6B1 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4A30041F92801100DFF6B1 /* Colors.swift */; };
+		DC502E581F92521D00050EE4 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC502E571F92521D00050EE4 /* CalendarCell.swift */; };
 		DC9722FA1F5819DE005C4925 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9722F91F5819DE005C4925 /* AppDelegate.swift */; };
-		DC9722FC1F5819DE005C4925 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9722FB1F5819DE005C4925 /* FirstViewController.swift */; };
-		DC9722FE1F5819DE005C4925 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9722FD1F5819DE005C4925 /* SecondViewController.swift */; };
+		DC9722FC1F5819DE005C4925 /* DayOverviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9722FB1F5819DE005C4925 /* DayOverviewVC.swift */; };
+		DC9722FE1F5819DE005C4925 /* RoomAvailabilityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9722FD1F5819DE005C4925 /* RoomAvailabilityVC.swift */; };
 		DC9723011F5819DE005C4925 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC9722FF1F5819DE005C4925 /* Main.storyboard */; };
 		DC9723031F5819DE005C4925 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC9723021F5819DE005C4925 /* Assets.xcassets */; };
 		DC9723061F5819DE005C4925 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC9723041F5819DE005C4925 /* LaunchScreen.storyboard */; };
 		DC9723111F5819DE005C4925 /* HotelManagementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9723101F5819DE005C4925 /* HotelManagementTests.swift */; };
 		DC97231C1F5819DE005C4925 /* HotelManagementUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC97231B1F5819DE005C4925 /* HotelManagementUITests.swift */; };
+		DCA8ABD41FA5E9C500C76AE1 /* Reservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA8ABD31FA5E9C500C76AE1 /* Reservation.swift */; };
+		DCC852F71F90DF5200804E33 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCC852F61F90DF5200804E33 /* View.xib */; };
+		DCC852FB1F90E1DC00804E33 /* Calendar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC852FA1F90E1DC00804E33 /* Calendar.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +47,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24B410CA3E2171A00D00165E /* Pods-HotelManagementUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HotelManagementUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HotelManagementUITests/Pods-HotelManagementUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4E1083ADA4ACF004C45915B8 /* Pods_HotelManagementTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HotelManagementTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F8E59C7A071C370BEE2EBFD /* Pods-HotelManagement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HotelManagement.release.xcconfig"; path = "Pods/Target Support Files/Pods-HotelManagement/Pods-HotelManagement.release.xcconfig"; sourceTree = "<group>"; };
+		8312C43B015CF108E4E5C3F5 /* Pods-HotelManagementUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HotelManagementUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HotelManagementUITests/Pods-HotelManagementUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8BFA6654930245D681209C20 /* Pods_HotelManagementUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HotelManagementUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A40042871AFE534BD21850D0 /* Pods_HotelManagement.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HotelManagement.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9F97158483C9A7A1772684F /* Pods-HotelManagementTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HotelManagementTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HotelManagementTests/Pods-HotelManagementTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CCD824CBAD212602888050DE /* Pods-HotelManagementTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HotelManagementTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HotelManagementTests/Pods-HotelManagementTests.release.xcconfig"; sourceTree = "<group>"; };
+		DC15C74F1F94D45A0075E206 /* ReservationsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationsAPI.swift; sourceTree = "<group>"; };
+		DC22513C1F924BC00073A40B /* CalendarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarVC.swift; sourceTree = "<group>"; };
+		DC4A30001F926FC000DFF6B1 /* CalendarFSVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarFSVC.swift; sourceTree = "<group>"; };
+		DC4A30021F92705B00DFF6B1 /* CalendarFSCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarFSCell.swift; sourceTree = "<group>"; };
+		DC4A30041F92801100DFF6B1 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		DC502E571F92521D00050EE4 /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
 		DC9722F61F5819DE005C4925 /* HotelManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotelManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC9722F91F5819DE005C4925 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DC9722FB1F5819DE005C4925 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		DC9722FD1F5819DE005C4925 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		DC9722FB1F5819DE005C4925 /* DayOverviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayOverviewVC.swift; sourceTree = "<group>"; };
+		DC9722FD1F5819DE005C4925 /* RoomAvailabilityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomAvailabilityVC.swift; sourceTree = "<group>"; };
 		DC9723001F5819DE005C4925 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DC9723021F5819DE005C4925 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC9723051F5819DE005C4925 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +75,10 @@
 		DC9723171F5819DE005C4925 /* HotelManagementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotelManagementUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC97231B1F5819DE005C4925 /* HotelManagementUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelManagementUITests.swift; sourceTree = "<group>"; };
 		DC97231D1F5819DE005C4925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCA8ABD31FA5E9C500C76AE1 /* Reservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reservation.swift; sourceTree = "<group>"; };
+		DCC852F61F90DF5200804E33 /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		DCC852FA1F90E1DC00804E33 /* Calendar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Calendar.storyboard; sourceTree = "<group>"; };
+		F9E80223C684B653DF48F854 /* Pods-HotelManagement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HotelManagement.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HotelManagement/Pods-HotelManagement.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D936E3239B7622F195E0712F /* Pods_HotelManagement.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4523981B288FA39903B855BF /* Pods_HotelManagementTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +102,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87C31084FA1AE0659D19E915 /* Pods_HotelManagementUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A391C08E8A473B10537DB5F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9E80223C684B653DF48F854 /* Pods-HotelManagement.debug.xcconfig */,
+				6F8E59C7A071C370BEE2EBFD /* Pods-HotelManagement.release.xcconfig */,
+				C9F97158483C9A7A1772684F /* Pods-HotelManagementTests.debug.xcconfig */,
+				CCD824CBAD212602888050DE /* Pods-HotelManagementTests.release.xcconfig */,
+				24B410CA3E2171A00D00165E /* Pods-HotelManagementUITests.debug.xcconfig */,
+				8312C43B015CF108E4E5C3F5 /* Pods-HotelManagementUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BA0BA4C20D08BDEBB6D3AD19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A40042871AFE534BD21850D0 /* Pods_HotelManagement.framework */,
+				4E1083ADA4ACF004C45915B8 /* Pods_HotelManagementTests.framework */,
+				8BFA6654930245D681209C20 /* Pods_HotelManagementUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC15C74E1F94D4350075E206 /* services */ = {
+			isa = PBXGroup;
+			children = (
+				DC15C74F1F94D45A0075E206 /* ReservationsAPI.swift */,
+			);
+			path = services;
+			sourceTree = "<group>";
+		};
 		DC9722ED1F5819DE005C4925 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +147,8 @@
 				DC97230F1F5819DE005C4925 /* HotelManagementTests */,
 				DC97231A1F5819DE005C4925 /* HotelManagementUITests */,
 				DC9722F71F5819DE005C4925 /* Products */,
+				A391C08E8A473B10537DB5F1 /* Pods */,
+				BA0BA4C20D08BDEBB6D3AD19 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +165,15 @@
 		DC9722F81F5819DE005C4925 /* HotelManagement */ = {
 			isa = PBXGroup;
 			children = (
+				DCA8ABD21FA5E99A00C76AE1 /* models */,
+				DC15C74E1F94D4350075E206 /* services */,
+				DCC852F91F90E1BD00804E33 /* features */,
 				DC9722F91F5819DE005C4925 /* AppDelegate.swift */,
-				DC9722FB1F5819DE005C4925 /* FirstViewController.swift */,
-				DC9722FD1F5819DE005C4925 /* SecondViewController.swift */,
 				DC9722FF1F5819DE005C4925 /* Main.storyboard */,
 				DC9723021F5819DE005C4925 /* Assets.xcassets */,
 				DC9723041F5819DE005C4925 /* LaunchScreen.storyboard */,
 				DC9723071F5819DE005C4925 /* Info.plist */,
+				DCC852F61F90DF5200804E33 /* View.xib */,
 			);
 			path = HotelManagement;
 			sourceTree = "<group>";
@@ -128,6 +196,45 @@
 			path = HotelManagementUITests;
 			sourceTree = "<group>";
 		};
+		DCA8ABD21FA5E99A00C76AE1 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				DCA8ABD31FA5E9C500C76AE1 /* Reservation.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		DCC852F81F90E1AA00804E33 /* calendar */ = {
+			isa = PBXGroup;
+			children = (
+				DC9722FD1F5819DE005C4925 /* RoomAvailabilityVC.swift */,
+				DC22513C1F924BC00073A40B /* CalendarVC.swift */,
+				DC502E571F92521D00050EE4 /* CalendarCell.swift */,
+				DCC852FA1F90E1DC00804E33 /* Calendar.storyboard */,
+				DC4A30001F926FC000DFF6B1 /* CalendarFSVC.swift */,
+				DC4A30021F92705B00DFF6B1 /* CalendarFSCell.swift */,
+			);
+			path = calendar;
+			sourceTree = "<group>";
+		};
+		DCC852F91F90E1BD00804E33 /* features */ = {
+			isa = PBXGroup;
+			children = (
+				DCC852F81F90E1AA00804E33 /* calendar */,
+				DCE7BCB11F9B6E11003208FE /* day-overview */,
+				DC4A30041F92801100DFF6B1 /* Colors.swift */,
+			);
+			path = features;
+			sourceTree = "<group>";
+		};
+		DCE7BCB11F9B6E11003208FE /* day-overview */ = {
+			isa = PBXGroup;
+			children = (
+				DC9722FB1F5819DE005C4925 /* DayOverviewVC.swift */,
+			);
+			path = "day-overview";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +242,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC9723201F5819DE005C4925 /* Build configuration list for PBXNativeTarget "HotelManagement" */;
 			buildPhases = (
+				12AA6E4583C2FF9643319BBE /* [CP] Check Pods Manifest.lock */,
 				DC9722F21F5819DE005C4925 /* Sources */,
 				DC9722F31F5819DE005C4925 /* Frameworks */,
 				DC9722F41F5819DE005C4925 /* Resources */,
+				39B5128EC11B6B855A4EC0BC /* [CP] Embed Pods Frameworks */,
+				5C90E3934FB2A5EADD79691C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +262,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC9723231F5819DE005C4925 /* Build configuration list for PBXNativeTarget "HotelManagementTests" */;
 			buildPhases = (
+				4A1B75257320637B59C203E0 /* [CP] Check Pods Manifest.lock */,
 				DC9723081F5819DE005C4925 /* Sources */,
 				DC9723091F5819DE005C4925 /* Frameworks */,
 				DC97230A1F5819DE005C4925 /* Resources */,
+				9408FABDB3ECD57C29C21B8E /* [CP] Embed Pods Frameworks */,
+				2C91337FD29925D0B8A67BAB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +283,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC9723261F5819DE005C4925 /* Build configuration list for PBXNativeTarget "HotelManagementUITests" */;
 			buildPhases = (
+				F4A3F79257CB3188E4FD9EE2 /* [CP] Check Pods Manifest.lock */,
 				DC9723131F5819DE005C4925 /* Sources */,
 				DC9723141F5819DE005C4925 /* Frameworks */,
 				DC9723151F5819DE005C4925 /* Resources */,
+				D4E28C9A64CA16E72A51F984 /* [CP] Embed Pods Frameworks */,
+				697ED5FCE53157BF9BEC83A9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,9 +351,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCC852F71F90DF5200804E33 /* View.xib in Resources */,
 				DC9723061F5819DE005C4925 /* LaunchScreen.storyboard in Resources */,
 				DC9723031F5819DE005C4925 /* Assets.xcassets in Resources */,
 				DC9723011F5819DE005C4925 /* Main.storyboard in Resources */,
+				DCC852FB1F90E1DC00804E33 /* Calendar.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +375,187 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		12AA6E4583C2FF9643319BBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HotelManagement-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C91337FD29925D0B8A67BAB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HotelManagementTests/Pods-HotelManagementTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39B5128EC11B6B855A4EC0BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HotelManagement/Pods-HotelManagement-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/JTAppleCalendar/JTAppleCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRealm/RxRealm.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JTAppleCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRealm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HotelManagement/Pods-HotelManagement-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A1B75257320637B59C203E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HotelManagementTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C90E3934FB2A5EADD79691C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HotelManagement/Pods-HotelManagement-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		697ED5FCE53157BF9BEC83A9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HotelManagementUITests/Pods-HotelManagementUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9408FABDB3ECD57C29C21B8E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HotelManagementTests/Pods-HotelManagementTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4E28C9A64CA16E72A51F984 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HotelManagementUITests/Pods-HotelManagementUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4A3F79257CB3188E4FD9EE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HotelManagementUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DC9722F21F5819DE005C4925 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC9722FE1F5819DE005C4925 /* SecondViewController.swift in Sources */,
+				DC9722FE1F5819DE005C4925 /* RoomAvailabilityVC.swift in Sources */,
+				DC4A30051F92801100DFF6B1 /* Colors.swift in Sources */,
+				DCA8ABD41FA5E9C500C76AE1 /* Reservation.swift in Sources */,
 				DC9722FA1F5819DE005C4925 /* AppDelegate.swift in Sources */,
-				DC9722FC1F5819DE005C4925 /* FirstViewController.swift in Sources */,
+				DC22513D1F924BC00073A40B /* CalendarVC.swift in Sources */,
+				DC9722FC1F5819DE005C4925 /* DayOverviewVC.swift in Sources */,
+				DC15C7501F94D45A0075E206 /* ReservationsAPI.swift in Sources */,
+				DC4A30031F92705B00DFF6B1 /* CalendarFSCell.swift in Sources */,
+				DC502E581F92521D00050EE4 /* CalendarCell.swift in Sources */,
+				DC4A30011F926FC000DFF6B1 /* CalendarFSVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,8 +707,10 @@
 		};
 		DC9723211F5819DE005C4925 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9E80223C684B653DF48F854 /* Pods-HotelManagement.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HotelManagement/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nalinija.HotelManagement;
@@ -428,8 +721,10 @@
 		};
 		DC9723221F5819DE005C4925 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F8E59C7A071C370BEE2EBFD /* Pods-HotelManagement.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HotelManagement/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nalinija.HotelManagement;
@@ -440,6 +735,7 @@
 		};
 		DC9723241F5819DE005C4925 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9F97158483C9A7A1772684F /* Pods-HotelManagementTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +750,7 @@
 		};
 		DC9723251F5819DE005C4925 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCD824CBAD212602888050DE /* Pods-HotelManagementTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +765,7 @@
 		};
 		DC9723271F5819DE005C4925 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24B410CA3E2171A00D00165E /* Pods-HotelManagementUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = HotelManagementUITests/Info.plist;
@@ -481,6 +779,7 @@
 		};
 		DC9723281F5819DE005C4925 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8312C43B015CF108E4E5C3F5 /* Pods-HotelManagementUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = HotelManagementUITests/Info.plist;
@@ -511,6 +810,7 @@
 				DC9723221F5819DE005C4925 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC9723231F5819DE005C4925 /* Build configuration list for PBXNativeTarget "HotelManagementTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +819,7 @@
 				DC9723251F5819DE005C4925 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC9723261F5819DE005C4925 /* Build configuration list for PBXNativeTarget "HotelManagementUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +828,7 @@
 				DC9723281F5819DE005C4925 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

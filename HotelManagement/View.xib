@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13528" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13526"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="190" height="63"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Room 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="782-u8-Yhm">
+                    <rect key="frame" x="25" y="5" width="60.5" height="21"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VP5-Ur-iK5">
+                    <rect key="frame" x="0.0" y="0.0" width="15" height="63"/>
+                    <color key="backgroundColor" red="0.19098012290151647" green="0.8304411768913269" blue="0.49229312669406372" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="15" id="k45-ln-FQv"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Available" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rzs-UA-zNb">
+                    <rect key="frame" x="25" y="31" width="67.5" height="27"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="VP5-Ur-iK5" secondAttribute="bottom" id="0us-nx-nrC"/>
+                <constraint firstItem="Rzs-UA-zNb" firstAttribute="leading" secondItem="782-u8-Yhm" secondAttribute="leading" id="Ehr-yk-1Gu"/>
+                <constraint firstItem="782-u8-Yhm" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="5" id="Jrn-Ha-d2t"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Rzs-UA-zNb" secondAttribute="bottom" priority="999" constant="5" id="P4Z-Rf-8gg"/>
+                <constraint firstItem="VP5-Ur-iK5" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="PlI-1w-tYy"/>
+                <constraint firstItem="VP5-Ur-iK5" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Pse-4R-GKX"/>
+                <constraint firstItem="Rzs-UA-zNb" firstAttribute="top" secondItem="782-u8-Yhm" secondAttribute="bottom" constant="5" id="X6L-x3-1cq"/>
+                <constraint firstItem="782-u8-Yhm" firstAttribute="leading" secondItem="VP5-Ur-iK5" secondAttribute="trailing" constant="10" id="k8S-P6-eve"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="45" y="9.5"/>
+        </view>
+    </objects>
+</document>
