@@ -125,7 +125,7 @@
         <!--Data Source-->
         <scene sceneID="res-hi-OhX">
             <objects>
-                <viewController id="M71-NX-o8D" customClass="CalendarFSVC" customModule="HotelManagement" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="M71-NX-o8D" customClass="CalendarVC" customModule="HotelManagement" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UVn-1r-PEU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="300"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

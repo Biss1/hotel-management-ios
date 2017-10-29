@@ -18,7 +18,7 @@ enum SelectionType : Int {
 }
 
 
-class CalendarFSCell: FSCalendarCell {
+class CalendarCell: FSCalendarCell {
     
     
 //    weak var circleImageView: UIImageView!
