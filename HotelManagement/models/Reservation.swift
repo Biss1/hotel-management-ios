@@ -9,15 +9,12 @@
 import Foundation
 import RealmSwift
 
-class Reservation: Object {
-    dynamic var dateFrom: NSDate!
-    dynamic var dateTo: NSDate!
-    dynamic var dateReservation: NSDate!
-    dynamic var room: Room!
-    dynamic var guestName: NSString!
-}
-
-class Room: Object {
-    dynamic var id = 0
+class Reservation: Object, Codable {
     dynamic var roomNumber: String!
+    dynamic var dateFrom: Date!
+    dynamic var dateTo: Date!
+    dynamic var dateReservation: Date!
+    dynamic var room: Room!
+    dynamic var guestName: String!
+    
 }

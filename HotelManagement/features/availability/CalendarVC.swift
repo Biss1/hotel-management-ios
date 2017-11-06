@@ -8,6 +8,8 @@
 
 import UIKit
 import FSCalendar
+import RxSwift
+import RxCocoa
 
 class CalendarVC: UIViewController {
     fileprivate let gregorian = Calendar(identifier: .gregorian)
@@ -22,15 +24,12 @@ class CalendarVC: UIViewController {
     var firstDate: Date?
     var lastDate: Date?
     var hasRange = false
+    var availabilityViewModel: AvailabilityViewModel?
     
     // MARK:- Life cycle
     
      func viewdd() {
-        
-//        let view = UIView(frame: UIScreen.main.bounds)
-//        view.backgroundColor = UIColor.groupTableViewBackground
-//        self.view = view
-//
+
         calendar.calendarHeaderView.backgroundColor = UIColor(red: 69/255.0, green: 129/255.0, blue: 142/255.0, alpha: 1)
         calendar.calendarWeekdayView.backgroundColor = UIColor.lightGray.withAlphaComponent(0.1)
         calendar.appearance.eventSelectionColor = UIColor.white
@@ -50,15 +49,6 @@ class CalendarVC: UIViewController {
         label.font = UIFont.preferredFont(forTextStyle: .subheadline)
         self.view.addSubview(label)
         self.eventLabel = label
-        
-//        let attributedText = NSMutableAttributedString(string: "")
-//        let attatchment = NSTextAttachment()
-//        attatchment.image = UIImage(named: "icon_cat")!
-//        attatchment.bounds = CGRect(x: 0, y: -3, width: attatchment.image!.size.width, height: attatchment.image!.size.height)
-//        attributedText.append(NSAttributedString(attachment: attatchment))
-//        attributedText.append(NSAttributedString(string: "  Hey Daily Event  "))
-//        attributedText.append(NSAttributedString(attachment: attatchment))
-//        self.eventLabel.attributedText = attributedText
         
     }
     
@@ -139,6 +129,7 @@ extension CalendarVC : FSCalendarDataSource, FSCalendarDelegate, FSCalendarDeleg
             }
             hasRange = true;
             lastDate = date;
+            availabilityViewModel?.rangeSelected(dateFrom: firstDate!,dateTo: lastDate!)
         } else if hasRange && firstDate != nil && lastDate != nil {
             var pomDate = firstDate
             while pomDate! <= lastDate! {
