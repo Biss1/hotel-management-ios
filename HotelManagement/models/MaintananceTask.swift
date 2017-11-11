@@ -8,7 +8,7 @@
 
 import RealmSwift
 
-class Task: Object {
+class MaintananceTask: Object {
     dynamic var id = 0
     dynamic var title: String!
     var completed: Bool!

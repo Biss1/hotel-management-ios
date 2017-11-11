@@ -16,13 +16,7 @@ class DayOverviewVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        downloadRepositories()
-        roomNumber = "6"
-        let realm = try! Realm()
-        let reservations = realm.objects(Reservation.self)
-        print(reservations.count)
-        
-
+//        downloadRepositories()
     }
 
     override func didReceiveMemoryWarning() {
@@ -54,7 +48,7 @@ class DayOverviewVC: UIViewController {
                 roomNumber = "7"
             }else { roomNumber = "6" }
             let res = Reservation()
-            res.roomNumber = roomNumber;
+//            res.roomNumber = roomNumber;
             print("Room number " + roomNumber)
             let realm = try! Realm()
             try! realm.write {
