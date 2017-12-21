@@ -38,7 +38,7 @@ class AvailabilityWithTransfersTests: XCTestCase {
                                                dateTo: defaultFormatter().date(from: "20.05.2017")!),
                                                 room: DataService.getRoom(id: 4)!)
         
-        let availableRoomsWithTransfer = DataService.getAvailableRoomsWithTransfer(period: Period(dateFrom: defaultFormatter().date(from: "11.05.2017")!,
+        let availableRoomsWithTransfer = getAvailableRoomsWithTransfer(period: Period(dateFrom: defaultFormatter().date(from: "11.05.2017")!,
                                                                              dateTo: defaultFormatter().date(from: "17.05.2017")!))
         print(availableRoomsWithTransfer)
         XCTAssertEqual(availableRoomsWithTransfer.count, 12)
@@ -69,7 +69,7 @@ class AvailabilityWithTransfersTests: XCTestCase {
         
     }
     
-    func checkAvailableRooms(availabilityWithTransfer: AvailabilityWithTransfer, roomIdFirstPeriod: Int,
+    func checkAvailableRooms(availabilityWithTransfer: Availability, roomIdFirstPeriod: Int,
                               daysFirstPeriod: Int, roomIdSecondPeriod: Int, daysSecondPeriod: Int) {
         XCTAssertTrue(availabilityWithTransfer.numberOfTransfers == 1)
         XCTAssertTrue(availabilityWithTransfer.roomAvailability[0].room.id == roomIdFirstPeriod)

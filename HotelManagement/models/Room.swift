@@ -11,6 +11,7 @@ import RealmSwift
 class Room: Object, Codable {
     dynamic var id = 0
     dynamic var roomNumber: String!
+    dynamic var numberOfGuests = 2
     
     convenience init(id: Int, roomNumber: String) {
         self.init()

@@ -11,13 +11,20 @@
 		87C31084FA1AE0659D19E915 /* Pods_HotelManagementUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BFA6654930245D681209C20 /* Pods_HotelManagementUITests.framework */; };
 		D936E3239B7622F195E0712F /* Pods_HotelManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A40042871AFE534BD21850D0 /* Pods_HotelManagement.framework */; };
 		DC15C7501F94D45A0075E206 /* ReservationsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC15C74F1F94D45A0075E206 /* ReservationsAPI.swift */; };
+		DC28A8141FDD6E2A00CE66FE /* AvailabilityViewModelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC28A8131FDD6E2A00CE66FE /* AvailabilityViewModelsTests.swift */; };
+		DC3B0D531FD4614A00AE0ED1 /* AvailabilityUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3B0D521FD4614A00AE0ED1 /* AvailabilityUtils.swift */; };
+		DC3B0D551FD4617E00AE0ED1 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3B0D541FD4617E00AE0ED1 /* DateExtension.swift */; };
+		DC3B0D591FD464C900AE0ED1 /* AvailabilityCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3B0D581FD464C900AE0ED1 /* AvailabilityCellViewModel.swift */; };
+		DC3E4DA01FB74BFE003E42F5 /* AvailabilityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3E4D9F1FB74BFE003E42F5 /* AvailabilityCell.swift */; };
+		DC3E4DA71FB753B8003E42F5 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3E4DA61FB753B8003E42F5 /* UIViewExtensions.swift */; };
+		DC3E4DA91FB78FDB003E42F5 /* Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3E4DA81FB78FDB003E42F5 /* Demo.swift */; };
+		DC3E4DAB1FB7990E003E42F5 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3E4DAA1FB7990E003E42F5 /* TableViewController.swift */; };
 		DC4A30011F926FC000DFF6B1 /* CalendarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4A30001F926FC000DFF6B1 /* CalendarVC.swift */; };
 		DC4A30031F92705B00DFF6B1 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4A30021F92705B00DFF6B1 /* CalendarCell.swift */; };
 		DC4A30051F92801100DFF6B1 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4A30041F92801100DFF6B1 /* Colors.swift */; };
 		DC4EDFF81FAB081700DFF0F4 /* AvailabilityInPeriodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4EDFF71FAB081700DFF0F4 /* AvailabilityInPeriodTests.swift */; };
 		DC4EE0061FAB4DDA00DFF0F4 /* AvailabilityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4EE0051FAB4DDA00DFF0F4 /* AvailabilityViewModel.swift */; };
 		DC7799861FAAF503009258B5 /* ReservationsInPeriodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7799851FAAF503009258B5 /* ReservationsInPeriodTests.swift */; };
-		DC7C51291FAF397F00091BBF /* AvailableRoomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7C51281FAF397F00091BBF /* AvailableRoomCell.swift */; };
 		DC7E45AB1FB0454700A2EF35 /* MaintananceTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7E45AA1FB0454700A2EF35 /* MaintananceTask.swift */; };
 		DC7E45AD1FB0457900A2EF35 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7E45AC1FB0457900A2EF35 /* Room.swift */; };
 		DC7E45AF1FB0470200A2EF35 /* DayOverviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7E45AE1FB0470200A2EF35 /* DayOverviewViewModel.swift */; };
@@ -65,13 +72,20 @@
 		C9F97158483C9A7A1772684F /* Pods-HotelManagementTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HotelManagementTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HotelManagementTests/Pods-HotelManagementTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CCD824CBAD212602888050DE /* Pods-HotelManagementTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HotelManagementTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HotelManagementTests/Pods-HotelManagementTests.release.xcconfig"; sourceTree = "<group>"; };
 		DC15C74F1F94D45A0075E206 /* ReservationsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationsAPI.swift; sourceTree = "<group>"; };
+		DC28A8131FDD6E2A00CE66FE /* AvailabilityViewModelsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailabilityViewModelsTests.swift; sourceTree = "<group>"; };
+		DC3B0D521FD4614A00AE0ED1 /* AvailabilityUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailabilityUtils.swift; sourceTree = "<group>"; };
+		DC3B0D541FD4617E00AE0ED1 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		DC3B0D581FD464C900AE0ED1 /* AvailabilityCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailabilityCellViewModel.swift; sourceTree = "<group>"; };
+		DC3E4D9F1FB74BFE003E42F5 /* AvailabilityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailabilityCell.swift; sourceTree = "<group>"; };
+		DC3E4DA61FB753B8003E42F5 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		DC3E4DA81FB78FDB003E42F5 /* Demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo.swift; sourceTree = "<group>"; };
+		DC3E4DAA1FB7990E003E42F5 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		DC4A30001F926FC000DFF6B1 /* CalendarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarVC.swift; sourceTree = "<group>"; };
 		DC4A30021F92705B00DFF6B1 /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
 		DC4A30041F92801100DFF6B1 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		DC4EDFF71FAB081700DFF0F4 /* AvailabilityInPeriodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailabilityInPeriodTests.swift; sourceTree = "<group>"; };
 		DC4EE0051FAB4DDA00DFF0F4 /* AvailabilityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailabilityViewModel.swift; sourceTree = "<group>"; };
 		DC7799851FAAF503009258B5 /* ReservationsInPeriodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationsInPeriodTests.swift; sourceTree = "<group>"; };
-		DC7C51281FAF397F00091BBF /* AvailableRoomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableRoomCell.swift; sourceTree = "<group>"; };
 		DC7E45AA1FB0454700A2EF35 /* MaintananceTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaintananceTask.swift; sourceTree = "<group>"; };
 		DC7E45AC1FB0457900A2EF35 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
 		DC7E45AE1FB0470200A2EF35 /* DayOverviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayOverviewViewModel.swift; sourceTree = "<group>"; };
@@ -155,8 +169,27 @@
 			children = (
 				DC15C74F1F94D45A0075E206 /* ReservationsAPI.swift */,
 				DCB844D21FAAFB33005368A1 /* DataService.swift */,
+				DC3E4DA81FB78FDB003E42F5 /* Demo.swift */,
 			);
 			path = services;
+			sourceTree = "<group>";
+		};
+		DC3E4D9E1FB74BD3003E42F5 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				DC3E4D9F1FB74BFE003E42F5 /* AvailabilityCell.swift */,
+				DC3B0D581FD464C900AE0ED1 /* AvailabilityCellViewModel.swift */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		DC3E4DA51FB75384003E42F5 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DC3E4DA61FB753B8003E42F5 /* UIViewExtensions.swift */,
+				DC3B0D541FD4617E00AE0ED1 /* DateExtension.swift */,
+			);
+			path = extensions;
 			sourceTree = "<group>";
 		};
 		DC9722ED1F5819DE005C4925 = {
@@ -184,6 +217,8 @@
 		DC9722F81F5819DE005C4925 /* HotelManagement */ = {
 			isa = PBXGroup;
 			children = (
+				DC3B0D521FD4614A00AE0ED1 /* AvailabilityUtils.swift */,
+				DC3E4DA51FB75384003E42F5 /* extensions */,
 				DCA8ABD21FA5E99A00C76AE1 /* models */,
 				DC15C74E1F94D4350075E206 /* services */,
 				DCC852F91F90E1BD00804E33 /* features */,
@@ -205,6 +240,7 @@
 				DC97A7B31FAA1E9F007D03F6 /* AvailabilityWithTransfersTests.swift */,
 				DC7799851FAAF503009258B5 /* ReservationsInPeriodTests.swift */,
 				DC4EDFF71FAB081700DFF0F4 /* AvailabilityInPeriodTests.swift */,
+				DC28A8131FDD6E2A00CE66FE /* AvailabilityViewModelsTests.swift */,
 				DCE161251FB20CD800D78613 /* RealmTestUtils.swift */,
 			);
 			path = HotelManagementTests;
@@ -232,11 +268,11 @@
 		DCC852F81F90E1AA00804E33 /* availability */ = {
 			isa = PBXGroup;
 			children = (
+				DC3E4D9E1FB74BD3003E42F5 /* cells */,
 				DC95B3271FAC511000F6BDE6 /* AvailabilityVC.swift */,
 				DC4A30001F926FC000DFF6B1 /* CalendarVC.swift */,
 				DC4A30021F92705B00DFF6B1 /* CalendarCell.swift */,
 				DC9722FD1F5819DE005C4925 /* RoomAvailabilityVC.swift */,
-				DC7C51281FAF397F00091BBF /* AvailableRoomCell.swift */,
 				DC4EE0051FAB4DDA00DFF0F4 /* AvailabilityViewModel.swift */,
 				DCC852FA1F90E1DC00804E33 /* Calendar.storyboard */,
 			);
@@ -249,6 +285,7 @@
 				DCC852F81F90E1AA00804E33 /* availability */,
 				DCE7BCB11F9B6E11003208FE /* day-overview */,
 				DC4A30041F92801100DFF6B1 /* Colors.swift */,
+				DC3E4DAA1FB7990E003E42F5 /* TableViewController.swift */,
 			);
 			path = features;
 			sourceTree = "<group>";
@@ -339,6 +376,7 @@
 				TargetAttributes = {
 					DC9722F51F5819DE005C4925 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = LAA69LK8PF;
 						ProvisioningStyle = Automatic;
 					};
 					DC97230B1F5819DE005C4925 = {
@@ -576,17 +614,23 @@
 				DC9722FE1F5819DE005C4925 /* RoomAvailabilityVC.swift in Sources */,
 				DC4EE0061FAB4DDA00DFF0F4 /* AvailabilityViewModel.swift in Sources */,
 				DC7E45AD1FB0457900A2EF35 /* Room.swift in Sources */,
+				DC3E4DAB1FB7990E003E42F5 /* TableViewController.swift in Sources */,
 				DC4A30051F92801100DFF6B1 /* Colors.swift in Sources */,
 				DC95B3281FAC511000F6BDE6 /* AvailabilityVC.swift in Sources */,
-				DC7C51291FAF397F00091BBF /* AvailableRoomCell.swift in Sources */,
 				DCA8ABD41FA5E9C500C76AE1 /* Reservation.swift in Sources */,
+				DC3B0D591FD464C900AE0ED1 /* AvailabilityCellViewModel.swift in Sources */,
 				DC9722FA1F5819DE005C4925 /* AppDelegate.swift in Sources */,
 				DC9722FC1F5819DE005C4925 /* DayOverviewVC.swift in Sources */,
 				DC7E45AB1FB0454700A2EF35 /* MaintananceTask.swift in Sources */,
 				DC15C7501F94D45A0075E206 /* ReservationsAPI.swift in Sources */,
 				DC4A30031F92705B00DFF6B1 /* CalendarCell.swift in Sources */,
+				DC3B0D531FD4614A00AE0ED1 /* AvailabilityUtils.swift in Sources */,
 				DCB844D31FAAFB33005368A1 /* DataService.swift in Sources */,
+				DC3E4DA91FB78FDB003E42F5 /* Demo.swift in Sources */,
+				DC3E4DA01FB74BFE003E42F5 /* AvailabilityCell.swift in Sources */,
+				DC3B0D551FD4617E00AE0ED1 /* DateExtension.swift in Sources */,
 				DC7E45AF1FB0470200A2EF35 /* DayOverviewViewModel.swift in Sources */,
+				DC3E4DA71FB753B8003E42F5 /* UIViewExtensions.swift in Sources */,
 				DC4A30011F926FC000DFF6B1 /* CalendarVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -596,6 +640,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC97A7B41FAA1E9F007D03F6 /* AvailabilityWithTransfersTests.swift in Sources */,
+				DC28A8141FDD6E2A00CE66FE /* AvailabilityViewModelsTests.swift in Sources */,
 				DC9723111F5819DE005C4925 /* HotelManagementTests.swift in Sources */,
 				DC4EDFF81FAB081700DFF0F4 /* AvailabilityInPeriodTests.swift in Sources */,
 				DCE161261FB20CD800D78613 /* RealmTestUtils.swift in Sources */,
@@ -746,7 +791,7 @@
 			baseConfigurationReference = F9E80223C684B653DF48F854 /* Pods-HotelManagement.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = LAA69LK8PF;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"COCOAPODS=1",
@@ -764,7 +809,7 @@
 			baseConfigurationReference = 6F8E59C7A071C370BEE2EBFD /* Pods-HotelManagement.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = LAA69LK8PF;
 				INFOPLIST_FILE = HotelManagement/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nalinija.HotelManagement;
@@ -779,6 +824,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"COCOAPODS=1",
@@ -799,6 +845,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = HotelManagementTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nalinija.HotelManagementTests;
