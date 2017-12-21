@@ -23,7 +23,7 @@
 		DC4A30031F92705B00DFF6B1 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4A30021F92705B00DFF6B1 /* CalendarCell.swift */; };
 		DC4A30051F92801100DFF6B1 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4A30041F92801100DFF6B1 /* Colors.swift */; };
 		DC4EDFF81FAB081700DFF0F4 /* AvailabilityInPeriodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4EDFF71FAB081700DFF0F4 /* AvailabilityInPeriodTests.swift */; };
-		DC4EE0061FAB4DDA00DFF0F4 /* AvailabilityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4EE0051FAB4DDA00DFF0F4 /* AvailabilityViewModel.swift */; };
+		DC4EE0061FAB4DDA00DFF0F4 /* AvailabilityVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4EE0051FAB4DDA00DFF0F4 /* AvailabilityVM.swift */; };
 		DC7799861FAAF503009258B5 /* ReservationsInPeriodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7799851FAAF503009258B5 /* ReservationsInPeriodTests.swift */; };
 		DC7E45AB1FB0454700A2EF35 /* MaintananceTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7E45AA1FB0454700A2EF35 /* MaintananceTask.swift */; };
 		DC7E45AD1FB0457900A2EF35 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7E45AC1FB0457900A2EF35 /* Room.swift */; };
@@ -84,7 +84,7 @@
 		DC4A30021F92705B00DFF6B1 /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
 		DC4A30041F92801100DFF6B1 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		DC4EDFF71FAB081700DFF0F4 /* AvailabilityInPeriodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailabilityInPeriodTests.swift; sourceTree = "<group>"; };
-		DC4EE0051FAB4DDA00DFF0F4 /* AvailabilityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailabilityViewModel.swift; sourceTree = "<group>"; };
+		DC4EE0051FAB4DDA00DFF0F4 /* AvailabilityVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailabilityVM.swift; sourceTree = "<group>"; };
 		DC7799851FAAF503009258B5 /* ReservationsInPeriodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationsInPeriodTests.swift; sourceTree = "<group>"; };
 		DC7E45AA1FB0454700A2EF35 /* MaintananceTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaintananceTask.swift; sourceTree = "<group>"; };
 		DC7E45AC1FB0457900A2EF35 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
@@ -273,7 +273,7 @@
 				DC4A30001F926FC000DFF6B1 /* CalendarVC.swift */,
 				DC4A30021F92705B00DFF6B1 /* CalendarCell.swift */,
 				DC9722FD1F5819DE005C4925 /* RoomAvailabilityVC.swift */,
-				DC4EE0051FAB4DDA00DFF0F4 /* AvailabilityViewModel.swift */,
+				DC4EE0051FAB4DDA00DFF0F4 /* AvailabilityVM.swift */,
 				DCC852FA1F90E1DC00804E33 /* Calendar.storyboard */,
 			);
 			path = availability;
@@ -612,7 +612,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC9722FE1F5819DE005C4925 /* RoomAvailabilityVC.swift in Sources */,
-				DC4EE0061FAB4DDA00DFF0F4 /* AvailabilityViewModel.swift in Sources */,
+				DC4EE0061FAB4DDA00DFF0F4 /* AvailabilityVM.swift in Sources */,
 				DC7E45AD1FB0457900A2EF35 /* Room.swift in Sources */,
 				DC3E4DAB1FB7990E003E42F5 /* TableViewController.swift in Sources */,
 				DC4A30051F92801100DFF6B1 /* Colors.swift in Sources */,

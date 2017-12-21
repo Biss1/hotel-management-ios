@@ -24,7 +24,7 @@ class CalendarVC: UIViewController {
     var firstDate: Date?
     var lastDate: Date?
     var hasRange = false
-    var availabilityViewModel: AvailabilityViewModel?
+    var availabilityViewModel: AvailabilityVM?
     
     // MARK:- Life cycle
     

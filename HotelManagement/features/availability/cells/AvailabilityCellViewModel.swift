@@ -7,7 +7,7 @@
 //
 import Foundation
 
-class AvailabilityCellViewModel {
+class AvailabilityCellVM {
     var showReserveButton: Bool!
     var showEditButton: Bool!
     
@@ -20,25 +20,29 @@ class AvailabilityCellViewModel {
 //    var secondRoomColor
     
     init(roomAvailability: [RoomAvailability]) {
-        firstRoomText = String(format: "Room %@", roomAvailability[0].room.roomNumber)
-        firstPeriodText = periodText(period: roomAvailability[0].period)
+        firstRoomText = format(roomNumber: roomAvailability[0].room.roomNumber)
+        firstPeriodText = format(period: roomAvailability[0].period)
         
-        secondRoomText = roomAvailability[1].room.roomNumber
-        secondPeriodText = periodText(period: roomAvailability[1].period)
+        secondRoomText = format(roomNumber: roomAvailability[1].room.roomNumber)
+        secondPeriodText = format(period: roomAvailability[1].period)
         
         showReserveButton = true
         showEditButton = false
     }
     
     init(roomAvailability: RoomAvailability) {
-        firstRoomText = String(format: "Room %@", roomAvailability.room.roomNumber)
+        firstRoomText = format(roomNumber: roomAvailability.room.roomNumber)
         firstPeriodText = "Available"
         
         showReserveButton = true
         showEditButton = false
     }
     
-    func periodText(period: Period) -> String {
+    func format(roomNumber: String) -> String{
+        return String(format: "Room %@", roomNumber)
+    }
+    
+    func format(period: Period) -> String {
         let formatter = DateFormatter()
         formatter.dateFormat = "MM-dd"
         

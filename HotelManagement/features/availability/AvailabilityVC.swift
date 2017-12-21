@@ -10,7 +10,7 @@ import UIKit
 
 class AvailabilityVC: UIViewController {
 
-    let availabilityViewModel = AvailabilityViewModel()
+    let availabilityViewModel = AvailabilityVM()
     
     override func viewDidLoad() {
         super.viewDidLoad()

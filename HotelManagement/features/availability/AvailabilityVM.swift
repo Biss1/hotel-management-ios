@@ -10,28 +10,25 @@ import RxSwift
 import RxRealm
 import RealmSwift
 
-class AvailabilityViewModel {
+class AvailabilityVM {
     
-    var availableRoomsSubject: PublishSubject<AvailabilityViewModel> = PublishSubject<AvailabilityViewModel>()
+    var availableRoomsSubject: PublishSubject<AvailabilityVM> = PublishSubject<AvailabilityVM>()
     
-    var sections: [AvailabilitySectionViewModel] = []
+    var sections: [AvailabilitySectionVM] = []
     
     func rangeSelected(dateFrom: Date, dateTo: Date) {
         let period = Period(dateFrom: dateFrom, dateTo: dateTo)
-//        let availability = getRoomAvailability(period: period)
-//        roomAvailabilityViewModel = RoomAvailabilityViewModel(availabilityList: availability)
         
-        sections.append(AvailabilitySectionViewModel(roomAvailability: getAvailableRooms(period: period)))
-        sections.append(AvailabilitySectionViewModel(availabilities: getAvailableRoomsWithTransfer(period: period), numberOfTransfers: 1))
+        sections.append(AvailabilitySectionVM(roomAvailability: getAvailableRooms(period: period)))
+        sections.append(AvailabilitySectionVM(availabilities: getAvailableRoomsWithTransfer(period: period), numberOfTransfers: 1))
         
         availableRoomsSubject.on(.next(self))
     }
-    
 }
 
 /** View model for a section in the availability table view. Contains title, the number of rows and the view models for the rows */
-class AvailabilitySectionViewModel {
-    var cells: [AvailabilityCellViewModel]
+class AvailabilitySectionVM {
+    var cells: [AvailabilityCellVM]
     var title: String = ""
     var cellIdentifier: String = ""
     var numberOfRows: Int {
@@ -39,8 +36,8 @@ class AvailabilitySectionViewModel {
     }
     
     init(availabilities: [Availability], numberOfTransfers: Int) {
-        cells = availabilities.map{(availability: Availability) -> AvailabilityCellViewModel in
-            AvailabilityCellViewModel(roomAvailability: availability.roomAvailability)
+        cells = availabilities.map{(availability: Availability) -> AvailabilityCellVM in
+            AvailabilityCellVM(roomAvailability: availability.roomAvailability)
         }
         
         if (numberOfTransfers == 0) {
@@ -56,8 +53,8 @@ class AvailabilitySectionViewModel {
         title = "Available rooms"
         cellIdentifier = "AvailabilityCell"
         
-        cells = roomAvailability.map{(roomAvailability: RoomAvailability) -> AvailabilityCellViewModel in
-            AvailabilityCellViewModel(roomAvailability:roomAvailability)
+        cells = roomAvailability.map{(roomAvailability: RoomAvailability) -> AvailabilityCellVM in
+            AvailabilityCellVM(roomAvailability:roomAvailability)
         }
     }
 }

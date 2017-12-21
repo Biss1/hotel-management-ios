@@ -10,7 +10,7 @@ import UIKit
 
 class AvailabilityCell: UITableViewCell {
 
-    var availabilityCellViewModel: AvailabilityCellViewModel!
+    var availabilityCellViewModel: AvailabilityCellVM!
     
     @IBOutlet weak var reserveButton: UIButton!
     @IBOutlet weak var firstRoomLabel: UILabel!
@@ -23,7 +23,7 @@ class AvailabilityCell: UITableViewCell {
         super.awakeFromNib()
     }
     
-    func initWithViewModel(viewModel: AvailabilityCellViewModel) {
+    func initWithViewModel(viewModel: AvailabilityCellVM) {
         firstRoomLabel.text = viewModel.firstRoomText
         firstPeriodLabel.text = viewModel.firstPeriodText
         

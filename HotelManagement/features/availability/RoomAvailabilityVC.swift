@@ -15,31 +15,20 @@ import RxCocoa
 class RoomAvailabilityTableVC: UIViewController, UITableViewDataSource {
 
     let disposeBag = DisposeBag()
-    var availabilityViewModel = AvailabilityViewModel()
+    var availabilityViewModel = AvailabilityVM()
     @IBOutlet weak var tableView: UITableView!
-    
-    @IBOutlet weak var textFired: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.dataSource = self
-//        availabilityViewModel?.availableRoomsSubject.bind(to: tableView.rx.items(
-//            cellIdentifier: "AvailableRoomCell", cellType: AvailableRoomCell.self))
-//        { (row, element, cell) in
-////            cell.roomName.text = "\(element.roomAvailabilit[0])"
-////            print("bind table \(element.room.roomNumber)")
-//            //            cell.textLabel?.text = "\(element) @ row \(row)"
-//            }.disposed(by: disposeBag)
+
         availabilityViewModel.availableRoomsSubject.subscribe{ event in //put weakself
             self.tableView.reloadData()
         }.disposed(by: disposeBag)
-        
-        self.tableView.rowHeight = UITableViewAutomaticDimension
-        self.tableView.estimatedRowHeight = 100
     }
     
-    @IBAction func change(_ sender: Any) {
-
+    func setupTableView() {
+        self.tableView.rowHeight = UITableViewAutomaticDimension
+        self.tableView.estimatedRowHeight = 100
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
