@@ -21,9 +21,20 @@
 		DC3E4DAB1FB7990E003E42F5 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3E4DAA1FB7990E003E42F5 /* TableViewController.swift */; };
 		DC4A30011F926FC000DFF6B1 /* CalendarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4A30001F926FC000DFF6B1 /* CalendarVC.swift */; };
 		DC4A30031F92705B00DFF6B1 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4A30021F92705B00DFF6B1 /* CalendarCell.swift */; };
-		DC4A30051F92801100DFF6B1 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4A30041F92801100DFF6B1 /* Colors.swift */; };
 		DC4EDFF81FAB081700DFF0F4 /* AvailabilityInPeriodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4EDFF71FAB081700DFF0F4 /* AvailabilityInPeriodTests.swift */; };
 		DC4EE0061FAB4DDA00DFF0F4 /* AvailabilityVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4EE0051FAB4DDA00DFF0F4 /* AvailabilityVM.swift */; };
+		DC5D09161FEE79E600551A18 /* ReservationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5D09151FEE79E600551A18 /* ReservationCell.swift */; };
+		DC5D091D1FEE7C1400551A18 /* CountriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5D09181FEE7C1400551A18 /* CountriesCell.swift */; };
+		DC5D091E1FEE7C1400551A18 /* GuestsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5D09191FEE7C1400551A18 /* GuestsCell.swift */; };
+		DC5D091F1FEE7C1400551A18 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5D091B1FEE7C1400551A18 /* Country.swift */; };
+		DC5D09201FEE7C1400551A18 /* Guest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5D091C1FEE7C1400551A18 /* Guest.swift */; };
+		DC5D09261FEE7C9000551A18 /* ChooseCountryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5D09221FEE7C9000551A18 /* ChooseCountryVC.swift */; };
+		DC5D09271FEE7C9000551A18 /* GuestsListTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5D09231FEE7C9000551A18 /* GuestsListTableVC.swift */; };
+		DC5D09281FEE7C9000551A18 /* ManageGuestTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5D09241FEE7C9000551A18 /* ManageGuestTableVC.swift */; };
+		DC5D09291FEE7C9000551A18 /* Guests.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC5D09251FEE7C9000551A18 /* Guests.storyboard */; };
+		DC5D092C1FEE7D0E00551A18 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5D092B1FEE7D0E00551A18 /* Colors.swift */; };
+		DC5D092F1FEE7D1700551A18 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5D092D1FEE7D1700551A18 /* AlertController.swift */; };
+		DC5D09301FEE7D1700551A18 /* Validate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5D092E1FEE7D1700551A18 /* Validate.swift */; };
 		DC7799861FAAF503009258B5 /* ReservationsInPeriodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7799851FAAF503009258B5 /* ReservationsInPeriodTests.swift */; };
 		DC7E45AB1FB0454700A2EF35 /* MaintananceTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7E45AA1FB0454700A2EF35 /* MaintananceTask.swift */; };
 		DC7E45AD1FB0457900A2EF35 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7E45AC1FB0457900A2EF35 /* Room.swift */; };
@@ -82,9 +93,20 @@
 		DC3E4DAA1FB7990E003E42F5 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		DC4A30001F926FC000DFF6B1 /* CalendarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarVC.swift; sourceTree = "<group>"; };
 		DC4A30021F92705B00DFF6B1 /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
-		DC4A30041F92801100DFF6B1 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		DC4EDFF71FAB081700DFF0F4 /* AvailabilityInPeriodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailabilityInPeriodTests.swift; sourceTree = "<group>"; };
 		DC4EE0051FAB4DDA00DFF0F4 /* AvailabilityVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailabilityVM.swift; sourceTree = "<group>"; };
+		DC5D09151FEE79E600551A18 /* ReservationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationCell.swift; sourceTree = "<group>"; };
+		DC5D09181FEE7C1400551A18 /* CountriesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountriesCell.swift; sourceTree = "<group>"; };
+		DC5D09191FEE7C1400551A18 /* GuestsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuestsCell.swift; sourceTree = "<group>"; };
+		DC5D091B1FEE7C1400551A18 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		DC5D091C1FEE7C1400551A18 /* Guest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Guest.swift; sourceTree = "<group>"; };
+		DC5D09221FEE7C9000551A18 /* ChooseCountryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseCountryVC.swift; sourceTree = "<group>"; };
+		DC5D09231FEE7C9000551A18 /* GuestsListTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuestsListTableVC.swift; sourceTree = "<group>"; };
+		DC5D09241FEE7C9000551A18 /* ManageGuestTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManageGuestTableVC.swift; sourceTree = "<group>"; };
+		DC5D09251FEE7C9000551A18 /* Guests.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Guests.storyboard; sourceTree = "<group>"; };
+		DC5D092B1FEE7D0E00551A18 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		DC5D092D1FEE7D1700551A18 /* AlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
+		DC5D092E1FEE7D1700551A18 /* Validate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validate.swift; sourceTree = "<group>"; };
 		DC7799851FAAF503009258B5 /* ReservationsInPeriodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationsInPeriodTests.swift; sourceTree = "<group>"; };
 		DC7E45AA1FB0454700A2EF35 /* MaintananceTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaintananceTask.swift; sourceTree = "<group>"; };
 		DC7E45AC1FB0457900A2EF35 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
@@ -192,6 +214,70 @@
 			path = extensions;
 			sourceTree = "<group>";
 		};
+		DC5D09121FEE779900551A18 /* reservations */ = {
+			isa = PBXGroup;
+			children = (
+				DC5D09141FEE79C600551A18 /* cells */,
+			);
+			path = reservations;
+			sourceTree = "<group>";
+		};
+		DC5D09131FEE77BD00551A18 /* manage-guests */ = {
+			isa = PBXGroup;
+			children = (
+				DC5D09221FEE7C9000551A18 /* ChooseCountryVC.swift */,
+				DC5D09231FEE7C9000551A18 /* GuestsListTableVC.swift */,
+				DC5D09251FEE7C9000551A18 /* Guests.storyboard */,
+				DC5D09241FEE7C9000551A18 /* ManageGuestTableVC.swift */,
+				DC5D09171FEE7C1400551A18 /* cell */,
+				DC5D091A1FEE7C1400551A18 /* model */,
+			);
+			path = "manage-guests";
+			sourceTree = "<group>";
+		};
+		DC5D09141FEE79C600551A18 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				DC5D09151FEE79E600551A18 /* ReservationCell.swift */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		DC5D09171FEE7C1400551A18 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				DC5D09181FEE7C1400551A18 /* CountriesCell.swift */,
+				DC5D09191FEE7C1400551A18 /* GuestsCell.swift */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		DC5D091A1FEE7C1400551A18 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				DC5D091B1FEE7C1400551A18 /* Country.swift */,
+				DC5D091C1FEE7C1400551A18 /* Guest.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		DC5D09211FEE7C7700551A18 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				DC5D092D1FEE7D1700551A18 /* AlertController.swift */,
+				DC5D092E1FEE7D1700551A18 /* Validate.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		DC5D092A1FEE7CB500551A18 /* appearance */ = {
+			isa = PBXGroup;
+			children = (
+				DC5D092B1FEE7D0E00551A18 /* Colors.swift */,
+			);
+			path = appearance;
+			sourceTree = "<group>";
+		};
 		DC9722ED1F5819DE005C4925 = {
 			isa = PBXGroup;
 			children = (
@@ -217,6 +303,8 @@
 		DC9722F81F5819DE005C4925 /* HotelManagement */ = {
 			isa = PBXGroup;
 			children = (
+				DC5D092A1FEE7CB500551A18 /* appearance */,
+				DC5D09211FEE7C7700551A18 /* utils */,
 				DC3B0D521FD4614A00AE0ED1 /* AvailabilityUtils.swift */,
 				DC3E4DA51FB75384003E42F5 /* extensions */,
 				DCA8ABD21FA5E99A00C76AE1 /* models */,
@@ -282,9 +370,10 @@
 		DCC852F91F90E1BD00804E33 /* features */ = {
 			isa = PBXGroup;
 			children = (
+				DC5D09131FEE77BD00551A18 /* manage-guests */,
+				DC5D09121FEE779900551A18 /* reservations */,
 				DCC852F81F90E1AA00804E33 /* availability */,
 				DCE7BCB11F9B6E11003208FE /* day-overview */,
-				DC4A30041F92801100DFF6B1 /* Colors.swift */,
 				DC3E4DAA1FB7990E003E42F5 /* TableViewController.swift */,
 			);
 			path = features;
@@ -419,6 +508,7 @@
 				DCC852F71F90DF5200804E33 /* View.xib in Resources */,
 				DC9723061F5819DE005C4925 /* LaunchScreen.storyboard in Resources */,
 				DC9723031F5819DE005C4925 /* Assets.xcassets in Resources */,
+				DC5D09291FEE7C9000551A18 /* Guests.storyboard in Resources */,
 				DC9723011F5819DE005C4925 /* Main.storyboard in Resources */,
 				DCC852FB1F90E1DC00804E33 /* Calendar.storyboard in Resources */,
 			);
@@ -612,23 +702,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC9722FE1F5819DE005C4925 /* RoomAvailabilityVC.swift in Sources */,
+				DC5D092C1FEE7D0E00551A18 /* Colors.swift in Sources */,
 				DC4EE0061FAB4DDA00DFF0F4 /* AvailabilityVM.swift in Sources */,
 				DC7E45AD1FB0457900A2EF35 /* Room.swift in Sources */,
 				DC3E4DAB1FB7990E003E42F5 /* TableViewController.swift in Sources */,
-				DC4A30051F92801100DFF6B1 /* Colors.swift in Sources */,
+				DC5D091D1FEE7C1400551A18 /* CountriesCell.swift in Sources */,
+				DC5D09271FEE7C9000551A18 /* GuestsListTableVC.swift in Sources */,
+				DC5D091E1FEE7C1400551A18 /* GuestsCell.swift in Sources */,
+				DC5D092F1FEE7D1700551A18 /* AlertController.swift in Sources */,
 				DC95B3281FAC511000F6BDE6 /* AvailabilityVC.swift in Sources */,
+				DC5D09261FEE7C9000551A18 /* ChooseCountryVC.swift in Sources */,
+				DC5D091F1FEE7C1400551A18 /* Country.swift in Sources */,
 				DCA8ABD41FA5E9C500C76AE1 /* Reservation.swift in Sources */,
 				DC3B0D591FD464C900AE0ED1 /* AvailabilityCellViewModel.swift in Sources */,
 				DC9722FA1F5819DE005C4925 /* AppDelegate.swift in Sources */,
 				DC9722FC1F5819DE005C4925 /* DayOverviewVC.swift in Sources */,
 				DC7E45AB1FB0454700A2EF35 /* MaintananceTask.swift in Sources */,
 				DC15C7501F94D45A0075E206 /* ReservationsAPI.swift in Sources */,
+				DC5D09301FEE7D1700551A18 /* Validate.swift in Sources */,
 				DC4A30031F92705B00DFF6B1 /* CalendarCell.swift in Sources */,
 				DC3B0D531FD4614A00AE0ED1 /* AvailabilityUtils.swift in Sources */,
 				DCB844D31FAAFB33005368A1 /* DataService.swift in Sources */,
 				DC3E4DA91FB78FDB003E42F5 /* Demo.swift in Sources */,
+				DC5D09161FEE79E600551A18 /* ReservationCell.swift in Sources */,
 				DC3E4DA01FB74BFE003E42F5 /* AvailabilityCell.swift in Sources */,
 				DC3B0D551FD4617E00AE0ED1 /* DateExtension.swift in Sources */,
+				DC5D09201FEE7C1400551A18 /* Guest.swift in Sources */,
+				DC5D09281FEE7C9000551A18 /* ManageGuestTableVC.swift in Sources */,
 				DC7E45AF1FB0470200A2EF35 /* DayOverviewViewModel.swift in Sources */,
 				DC3E4DA71FB753B8003E42F5 /* UIViewExtensions.swift in Sources */,
 				DC4A30011F926FC000DFF6B1 /* CalendarVC.swift in Sources */,
