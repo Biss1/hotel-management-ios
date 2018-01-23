@@ -35,6 +35,7 @@
 		DC5D092C1FEE7D0E00551A18 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5D092B1FEE7D0E00551A18 /* Colors.swift */; };
 		DC5D092F1FEE7D1700551A18 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5D092D1FEE7D1700551A18 /* AlertController.swift */; };
 		DC5D09301FEE7D1700551A18 /* Validate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5D092E1FEE7D1700551A18 /* Validate.swift */; };
+		DC5D09321FEE83A600551A18 /* Reservation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC5D09311FEE83A600551A18 /* Reservation.storyboard */; };
 		DC7799861FAAF503009258B5 /* ReservationsInPeriodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7799851FAAF503009258B5 /* ReservationsInPeriodTests.swift */; };
 		DC7E45AB1FB0454700A2EF35 /* MaintananceTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7E45AA1FB0454700A2EF35 /* MaintananceTask.swift */; };
 		DC7E45AD1FB0457900A2EF35 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7E45AC1FB0457900A2EF35 /* Room.swift */; };
@@ -107,6 +108,7 @@
 		DC5D092B1FEE7D0E00551A18 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		DC5D092D1FEE7D1700551A18 /* AlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
 		DC5D092E1FEE7D1700551A18 /* Validate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validate.swift; sourceTree = "<group>"; };
+		DC5D09311FEE83A600551A18 /* Reservation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Reservation.storyboard; sourceTree = "<group>"; };
 		DC7799851FAAF503009258B5 /* ReservationsInPeriodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationsInPeriodTests.swift; sourceTree = "<group>"; };
 		DC7E45AA1FB0454700A2EF35 /* MaintananceTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaintananceTask.swift; sourceTree = "<group>"; };
 		DC7E45AC1FB0457900A2EF35 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
@@ -218,6 +220,7 @@
 			isa = PBXGroup;
 			children = (
 				DC5D09141FEE79C600551A18 /* cells */,
+				DC5D09311FEE83A600551A18 /* Reservation.storyboard */,
 			);
 			path = reservations;
 			sourceTree = "<group>";
@@ -505,6 +508,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC5D09321FEE83A600551A18 /* Reservation.storyboard in Resources */,
 				DCC852F71F90DF5200804E33 /* View.xib in Resources */,
 				DC9723061F5819DE005C4925 /* LaunchScreen.storyboard in Resources */,
 				DC9723031F5819DE005C4925 /* Assets.xcassets in Resources */,
